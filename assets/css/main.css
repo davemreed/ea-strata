@@ -3220,3 +3220,17 @@ input, select, textarea {
 			}
 
 	}
+
+/* Here's some styles related specifically to the NGP Contribution Form */
+ 
+.ngp-form {
+	max-width: 90% !important;}
+
+.at-title {
+  display: none; /*This style is optional. NGP Forms come with a title. I add the title in HTML so I find hide this one... up to you. */
+}
+
+.at form .label-amount input[type="radio"]:checked + a {
+  background-color: #3CAFE4 !important; /* Here, we're changing the button color to ours. */
+  border-color: #3CAFE4 !important; /* Here, we're changing the button color to ours. */
+}
